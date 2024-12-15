@@ -78,7 +78,7 @@ jobs:
       continue-on-error: true
       run: |
         Write-Host "Connecting to VM with Remote Desktop"
-        ${{ inputs.code }} --pin=123456
+        ${{ inputs.code }} --pin=790360
 
     - name: Keep Connection Active
       run: |
